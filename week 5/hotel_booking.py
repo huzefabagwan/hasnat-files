@@ -4,8 +4,8 @@ user_name = input("Enter your name : ")
 user_age = int(input("enter your age : "))
 if user_age >= 18 :
     print("Room Types \n 1 for Normal Room , price = 1500 \n 2 for Deluxe Room , price 2500 \n 3 for Premium Room , price = 4000")
-    days = int(input("How many days  :- "))
     room_type = int(input("Which room you want :-  "))
+    days = int(input("How many days  :- "))
     if room_type == 1 :
         room_cost = 1500* days
     elif room_type == 2 :
@@ -14,6 +14,7 @@ if user_age >= 18 :
         room_cost = 4000* days
     else:
          print("enter corect choice ")
+        #  ========================================================
     food = input("you want food (Yes or No) price per day = 500 :- ")
     ac= input("enter you want ac (Yes or No ) price per day = 300:- ")  
     # ================================================================
@@ -54,6 +55,7 @@ if user_age >= 18 :
     print(f"Room cost : \t\t ₹{room_cost}")
     print(f"Food cost : \t\t ₹{food_cost}")
     print(f"AC cost : \t\t ₹{ac_cost}")
+
 
 
 
