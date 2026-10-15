@@ -234,4 +234,4 @@
 # for x in t	Elements par iterate karna
 # a, b = t	Tuple unpacking
 # Note: min(), max() aur sum() jaise functions tabhi valid hote hain jab unke liye data suitable ho."""
-# """
+# """   
