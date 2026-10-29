@@ -20,7 +20,8 @@
 # - Indexed: Har element ka index hota hai, jo 0 se start hota hai.
 # 3. Tuple kaise create karte hain?
 # 1. Empty tuple
-# t = ()print(t)
+# t = ()
+# print(t)
 
 
 
@@ -234,4 +235,58 @@
 # for x in t	Elements par iterate karna
 # a, b = t	Tuple unpacking
 # Note: min(), max() aur sum() jaise functions tabhi valid hote hain jab unke liye data suitable ho."""
-# """   
+# """   6362 52fff55
+
+
+
+
+# tuple_name = ("huzefa" , "hasnat" , "uzair")
+# a = (1 , 2 , 3 )
+# print(type(a))
+# # tuple_name[0] = "muddassir"
+# print(type(tuple_name))
+# print()
+
+
+# multiple_datatype = (12 , 23.2 , "hasnat" , True , ["huzefa" , "muddassir"] , {12 , 34})
+# print(multiple_datatype[1])
+# print(multiple_datatype[0:6])
+
+                  
+# a = (12 , 13 , 14)
+# s = list(a)
+# print(type(s))
+# s[0] = 10
+# a = tuple(s)
+# print(a)
+
+# a = [12, 34 , "hasnat" , 12 , 23 , 23 , 32 , 32 ]
+# s = tuple(a)
+# b = set(a)
+# c = set(a)
+# print(s)
+# print(c)
+
+a = (1 ,2 ,3 ,4 , 5)
+b = (6 ,7 ,8 ,9)
+print(a+b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
