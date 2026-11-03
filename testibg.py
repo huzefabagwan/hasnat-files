@@ -1,4 +1,9 @@
-a = 10 
-# a = a - 9
-a-=9
-print(a) 
+# a = 10 
+# # a = a - 9
+# a-=9
+# print(a) 
+
+f = open("file.txt", "r")
+data = f.read()
+print(data)
+f.close()
