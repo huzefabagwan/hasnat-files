@@ -90,10 +90,40 @@ Find the first number divisible by 7 between 1 and 100
 """ 
 Write a program to calculate the factorial of a given number using for loop. 
 """
-num = int(input("enter your number to find factorial : "))
-fact =  1
-for i in range(1 , num+1):
-    fact = fact * i 
-print("factorial: " , fact)
 
-    
+
+# num = int(input("enter your number to find factorial : ")) #5 * 4 * 3 * 2 *1 
+# fact =  1
+# for i in range(1 , num+1):
+#     print(i)
+#     fact = fact * i 
+#     print(i)
+# print("factorial: " , fact)
+
+
+
+# l = ["Harry", "Soham", "Sachin", "Rahul" , "Sonu" , "haSnat" , "aS" , "SSS"]
+# for i in l: 
+#     if i.startswith("S"):
+#         print("hello " , i )
+
+
+
+# i = "Hasnat"
+# print(i.startswith("Has"))
+# print(i.endswith("nat"))
+
+"""5. Write a program to find the sum of first n natural numbers using while loop"""
+# print('''hello''')
+# print("""hello""")
+
+# n = int(input("enter your number : "))
+# a = 0 
+# i = 1
+# while i <= n :
+#     # print(i)
+#     a = a + i 
+#     i+=1
+# print(a)
+
+a = [["hasnat", [24 , 34 ]] , []] 
